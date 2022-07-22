@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { SiShopware } from 'react-icons/si';
 import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
+
+import logo from "../data/logo.svg";
+import logoName from "../data/logo-name.svg";
 
 const Sidebar = () => {
   const { currentColor, activeMenu, setActiveMenu, screenSize } = useStateContext();
@@ -25,7 +27,8 @@ const Sidebar = () => {
         <>
           <div className="flex justify-between items-center">
             <Link to="/" onClick={handleCloseSideBar} className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900">
-              <SiShopware /> <span>Shoppy</span>
+            <img className="w-[20%]" src={logo} alt="logo" />
+            <img className="w-[45%]" src={logoName} alt="memelytix logo" />
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button

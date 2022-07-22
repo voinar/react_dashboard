@@ -6,7 +6,7 @@ body {
 }
 
 body * {
-    /* border: 1px solid teal; */
+    /* outline: 1px solid teal; */
 }
 
 @tailwind base;
