@@ -11,7 +11,7 @@ import memeImg from '../data/meme-img.png';
 import { Header } from '../components';
 // import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
 
-const Overview = () => {
+const Overview = () => (
   <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
     <Header category="Page" title="Overview" />
     <div id="toolbar" className="">
@@ -125,7 +125,7 @@ const Overview = () => {
         </div>
       </div>
     </div>
-  </div>;
-};
+  </div>
+);
 
 export default Overview;
