@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
-import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
+import { Footer, Sidebar, ThemeSettings } from './components';
 import { Hero, Overview, Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
 import './App.css';
 
@@ -57,9 +57,9 @@ const App = () => {
                 : 'bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen flex-2 '
             }
           >
-            <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full ">
+            {/* <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full ">
               <Navbar />
-            </div>
+            </div> */}
             <div>
               {themeSettings && (<ThemeSettings />)}
 

@@ -11,7 +11,7 @@ const Hero = () => {
 
   const navigatePanel = () => {
     // 👇️ navigate to panel
-    navigate("/overview");
+    navigate('/overview');
   };
 
   return (
@@ -36,6 +36,7 @@ const Hero = () => {
           <button
             className="bg-lime-300 px-8 py-2 rounded-md border-2 border-lime-500 text-xl font-bold mt-8"
             onClick={navigatePanel}
+            type="button"
           >
             Get started
           </button>
@@ -44,7 +45,7 @@ const Hero = () => {
           id="hero-right"
           className="w-[60%] bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url("${heroImg}")` }}
-        ></div>
+        />
       </div>
     </div>
   );
