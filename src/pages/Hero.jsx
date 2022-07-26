@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <nav className="flex z-2 fixed mt-16 m-24 w-[50%]">
+      <nav className="flex z-2 fixed mt-16 m-24 w-[50%] gap-2">
         <img src={logo} alt="logo" />
         <img src={logoName} alt="memelytix" />
         {/* <ul className="flex gap-4">

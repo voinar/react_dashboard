@@ -9,13 +9,22 @@ import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 
 import memeImg from '../data/meme-img.png';
 import { Header } from '../components';
+import MemeCard from '../components/MemeCard'
+
 // import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
 
-const Overview = () => (
+const Overview = () => {
+
+  return (
   <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
     <Header category="Page" title="Overview" />
+
+    <MemeCard />
+
+
+    <div className=" bg-[#BBBBBB]">
     <div id="toolbar" className="">
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 justify-center text-sm">
         <li>Sort By</li>
         <li>Date Start</li>
         <li>Date End</li>
@@ -26,8 +35,8 @@ const Overview = () => (
         <li>Prediction</li>
       </ul>
     </div>
-    <div className="memecard flex flex-col mt-8 p-4 bg-[#f3f4f6] rounded-lg gap-6 w-[700px]">
-      <div className="flex gap-4">
+    <div className="memecard flex flex-col mt-8 p-4 bg-[#f3f4f6] rounded-lg gap-6 ">
+      <div className="flex gap-4 justify-center">
         <span>#1</span>
         <img src={memeImg} className="rounded h-[600px]" />
         <div className="w-1/3">
@@ -125,7 +134,8 @@ const Overview = () => (
         </div>
       </div>
     </div>
+    </div>
   </div>
-);
+)};
 
 export default Overview;
