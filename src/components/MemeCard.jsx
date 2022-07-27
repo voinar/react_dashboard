@@ -7,14 +7,14 @@ const MemeCard = () => {
 
   // const baseURL = "https://reqres.in/api/users" // endpoint #1
   // const baseURL = "https://jsonplaceholder.typicode.com/posts/" // endpoint #2
-  const baseURL = 'https://ufvry0vscj.execute-api.us-east-1.amazonaws.com/dev/clusters/summary/0/'; // endpoint #3
+  const baseURL = '/dev/clusters/summary/0/'; // endpoint #3
 
   const fetchMemeCards = () => {
     setData([]); //czyscimy poprzedni stan
     axios.get(baseURL).then((res) => {
       // setData(res.data.data.map(item => item.first_name)) // dziala z endpoint #1
       // setData(res.data.map(item => item.title)) // dziala z endpoint #2
-      setData(res.data.map((item) => item.init_title)); // dziala z endpint #3
+      setData(res.data.map((item) => item.init_imgurl + ' ')); // dziala z endpint #3
 
       // setData(res)
       console.log(res);
