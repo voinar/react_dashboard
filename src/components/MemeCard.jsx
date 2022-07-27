@@ -11,7 +11,7 @@ import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 
 const MemeCard = () => {
   const [memeCardData, setMemeCardData] = useState([]);
-  const baseURL = '/dev/clusters/summary';
+  const baseURL = 'https://ufvry0vscj.execute-api.us-east-1.amazonaws.com/dev/clusters/summary';
 
   useEffect(async () => {
     const result = await axios(baseURL);
