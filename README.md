@@ -1,8 +1,8 @@
 # Memelytix 
 ## Live site: https://astounding-melomakarona-d6f3a4.netlify.app/ (work in progress)
 
-(https://freeimage.host/i/SM24uj)
-(https://freeimage.host/i/SM2LMB)
+![hero_section](https://freeimage.host/i/SM24uj)
+![overview](https://freeimage.host/i/SM2LMB)
 
 ## Dashboard made in React for an AI/ML web scraping & data aggregation project. 
 
