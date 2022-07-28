@@ -11,7 +11,7 @@ import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 
 const MemeCard = () => {
   const [memeCardData, setMemeCardData] = useState('');
-  const baseURL = 'https://ufvry0vscj.execute-api.us-east-1.amazonaws.com/dev/clusters/summary';
+  const baseURL = '/dev/clusters/summary';
 
   useEffect(async () => {
     const result = await axios(baseURL);
@@ -22,7 +22,7 @@ const MemeCard = () => {
   return (
     <div>
       { memeCardData === ''
-        ? (<div id="meme-card" className="flex flex-col mb-72 h-auto"><h2>[fetch error]</h2></div>)
+        ? (<div id="meme-card" className="flex flex-col mb-72 h-auto"><h2>Loading...</h2></div>)
         : (
           <div id="meme-card" className="flex flex-col mb-72 h-auto">
             {memeCardData.map((memeCard, count) => (
