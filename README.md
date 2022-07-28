@@ -1,6 +1,6 @@
 # Memelytix 
 
-## Dashboard made in React for an AI/ML web scraping & data aggregation project. 
+## Dashboard made with React for an AI/ML web scraping & data aggregation project. 
 * Gathering memes from multiple sites and computing statistical data on usage frequency and sentiment (comments, likes) (AWS).
 * API calls (Axios) for live data rendering (Netlify).
 
