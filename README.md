@@ -1,7 +1,9 @@
-# Build and Deploy a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More
-![Shoppy](https://i.ibb.co/W6g39w3/image.png)
+# Memelytix 
+## Live site: https://astounding-melomakarona-d6f3a4.netlify.app/ (work in progress)
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+(https://freeimage.host/i/SM24uj)
+(https://freeimage.host/i/SM2LMB)
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+## Dashboard made in React for an AI/ML web scraping & data aggregation project. 
+
+Based on code by Adrian Hajdin: https://github.com/adrianhajdin/project_syncfusion_dashboard
