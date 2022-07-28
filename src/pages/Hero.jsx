@@ -16,8 +16,8 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <nav className="flex flex-col lg:flex-row z-2 gap-2 fixed mt-4 pl-4 sm:pl-6 md:pl-14 lg:pl-20">
-        <img className="lg:w-24 xl:w-32" src={logo} alt="logo" />
+      <nav className="flex flex-col lg:flex-row z-2 gap-2 fixed mt-14 pl-4 sm:pl-6 md:pl-14 lg:pl-20">
+        <img className="lg:w-20 xl:w-32" src={logo} alt="logo" />
         <img className="md:text-sm" src={logoName} alt="memelytix" />
         {/* <ul className="flex gap-4">
           <li>Explore</li>
@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="flex h-[100%] bg-[#ebebf6]">
         <div
           id="hero-left"
-          className="self-center w-[100%] lg:w-[50%] xl:w-[35%] px-4 xl:py-[20vh] sm:px-6 md:px-14 lg:px-20"
+          className="self-center w-[100%] xl:w-[100%] px-4 xl:py-[20vh] sm:px-6 md:px-14 lg:px-20"
         >
           <h1 className="font-display text-4xl md:text-6xl lg:text-6xl leading-[2rem] lg:leading-[3.4rem]">
             Get meme trends live. Powered by AI.
