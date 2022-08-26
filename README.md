@@ -8,4 +8,4 @@
 <img src="https://iili.io/SM24uj.png" width="700">
 <img src="https://iili.io/SM2LMB.png" width="700">
 
-Credits: Based on code by Adrian Hajdin: https://github.com/adrianhajdin/project_syncfusion_dashboard
+Credits: Chart widgets based on code by Adrian Hajdin: https://github.com/adrianhajdin/project_syncfusion_dashboard
