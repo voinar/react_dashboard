@@ -11,7 +11,7 @@ const Overview = () => (
     <MemeCard />
     <div className=" bg-[#BBBBBB]">
       <div id="toolbar" className="">
-        <ul className="flex gap-6 justify-center text-sm">
+        {/* <ul className="flex gap-6 justify-center text-sm">
           <li>Sort By</li>
           <li>Date Start</li>
           <li>Date End</li>
@@ -20,7 +20,7 @@ const Overview = () => (
           <li>Score</li>
           <li>Comments</li>
           <li>Prediction</li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </div>
